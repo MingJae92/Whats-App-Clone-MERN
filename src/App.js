@@ -12,7 +12,7 @@ function App() {
     axios.get("/messages/sync")
     .then(response=>{
       console.log(response.data);
-      setMessages(response.data);
+      // setMessages(response.data);
     })
   },[])
 
